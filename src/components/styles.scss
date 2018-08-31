@@ -1,0 +1,8 @@
+@import "theme/colors";
+
+.App {
+  background-color: $colors(grey);
+  .child {
+    background-color: red;
+  }
+}
