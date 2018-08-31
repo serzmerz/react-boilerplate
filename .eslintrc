@@ -1,0 +1,15 @@
+{
+  "parser": "babel-eslint",
+  "plugins": ["react", "jest", "redux-saga"],
+  "extends": ["airbnb"],
+  "rules": {
+    "import/prefer-default-export": 0,
+    "import/no-unresolved": 0,
+    "react/require-default-props": 0
+  },
+  "env": {
+    "es6": true,
+    "browser": true,
+    "node": true
+  }
+}
